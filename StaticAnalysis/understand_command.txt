@@ -1,0 +1,4 @@
+create ARcBridge.udb
+import settings.xml
+
+analyze
