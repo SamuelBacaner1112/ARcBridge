@@ -1,0 +1,339 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ARcBridgeDrawingOption.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204B0"
+        BEGIN
+            VALUE "FileDescription", "ARcBridgeDrawingOption DLL"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "ARcBridgeDrawingOption"
+            VALUE "LegalCopyright", "Copyright (C) 2004"
+            VALUE "OriginalFilename", "ARcBridgeDrawingOption.DLL"
+            VALUE "ProductName", "ARcBridgeDrawingOption 동적 연결 라이브러리"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTION_COMMON DIALOGEX 0, 0, 350, 325
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "도면 일반"
+FONT 9, "굴림", 0, 0, 0x0
+BEGIN
+    CONTROL         "Tree1",IDC_OPT_TREE,"SysTreeView32",WS_BORDER | WS_HSCROLL | WS_TABSTOP,1,2,150,322
+    CONTROL         "Custom1",IDC_OPT_GRID1,"MFCGridCtrl",WS_BORDER,153,2,196,83
+    CONTROL         "Custom1",IDC_OPT_GRID2,"MFCGridCtrl",WS_BORDER,153,87,196,237
+END
+
+IDD_OPTION_VERTICAL_PLANE DIALOG 0, 0, 350, 325
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "종평면도"
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "Tree1",IDC_OPT_TREE,"SysTreeView32",WS_BORDER | WS_TABSTOP,1,2,150,322
+    CONTROL         "Custom1",IDC_OPT_GRID,"MFCGridCtrl",WS_BORDER,153,2,196,322
+END
+
+IDD_OPTION_GENERAL DIALOG 0, 0, 350, 325
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "일반도"
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "Tree1",IDC_OPT_TREE,"SysTreeView32",WS_BORDER | WS_TABSTOP,1,2,150,322
+    CONTROL         "Custom1",IDC_OPT_GRID,"MFCGridCtrl",WS_BORDER,153,2,196,322
+END
+
+IDD_OPTION_REBAR DIALOG 0, 0, 350, 325
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "구조도"
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "Tree1",IDC_OPT_TREE,"SysTreeView32",WS_BORDER | WS_TABSTOP,1,2,150,322
+    CONTROL         "Custom1",IDC_OPT_GRID,"MFCGridCtrl",WS_BORDER,153,2,196,322
+END
+
+IDD_OPTION_APS DIALOG 0, 0, 350, 325
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "접속 슬래브"
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "Tree1",IDC_OPT_TREE,"SysTreeView32",WS_BORDER | WS_TABSTOP,1,2,150,322
+    CONTROL         "Custom1",IDC_OPT_GRID,"MFCGridCtrl",WS_BORDER,153,2,196,322
+END
+
+IDD_OPTION_OTHERS DIALOG 0, 0, 350, 325
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "기타 도면"
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "Tree1",IDC_OPT_TREE,"SysTreeView32",WS_BORDER | WS_TABSTOP,1,2,150,322
+    CONTROL         "Custom1",IDC_OPT_GRID,"MFCGridCtrl",WS_BORDER,153,2,196,322
+END
+
+IDD_OPTION_SHOE_ARRANGE DIALOG 0, 0, 350, 325
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "교량 받침 배치도"
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "Tree1",IDC_OPT_TREE,"SysTreeView32",WS_BORDER | WS_TABSTOP,1,2,150,322
+    CONTROL         "Custom1",IDC_OPT_GRID,"MFCGridCtrl",WS_BORDER,153,2,196,322
+END
+
+IDD_OPTION_BORING DIALOG 0, 0, 350, 325
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "지질 주상도"
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "Tree1",IDC_OPT_TREE,"SysTreeView32",WS_BORDER | WS_TABSTOP,1,2,150,322
+    CONTROL         "Custom1",IDC_OPT_GRID,"MFCGridCtrl",WS_BORDER,153,2,196,322
+END
+
+IDD_OPTION_CNS DIALOG 0, 0, 350, 325
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "완충 슬래브"
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "Tree1",IDC_OPT_TREE,"SysTreeView32",WS_BORDER | WS_TABSTOP,1,2,150,322
+    CONTROL         "Custom1",IDC_OPT_GRID,"MFCGridCtrl",WS_BORDER,153,2,196,322
+END
+
+IDD_OPTION_HYUNTA DIALOG 0, 0, 350, 325
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "현장타설 말뚝"
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "Tree1",IDC_OPT_TREE,"SysTreeView32",WS_BORDER | WS_TABSTOP,1,2,150,322
+    CONTROL         "Custom1",IDC_OPT_GRID,"MFCGridCtrl",WS_BORDER,153,2,196,322
+END
+
+IDD_OPTION_SLAB_STANDARD_OUTPUT DIALOG 0, 0, 350, 325
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RC슬래브교 표준도"
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "Tree1",IDC_OPT_TREE,"SysTreeView32",WS_BORDER | WS_TABSTOP,1,2,150,322
+    CONTROL         "Custom1",IDC_OPT_GRID,"MFCGridCtrl",WS_BORDER,153,2,196,322
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_OPTION_COMMON, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 349
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 324
+    END
+
+    IDD_OPTION_VERTICAL_PLANE, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 349
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 324
+    END
+
+    IDD_OPTION_GENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 349
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 324
+    END
+
+    IDD_OPTION_REBAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 349
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 324
+    END
+
+    IDD_OPTION_APS, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 349
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 324
+    END
+
+    IDD_OPTION_OTHERS, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 349
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 324
+    END
+
+    IDD_OPTION_SHOE_ARRANGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 349
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 324
+    END
+
+    IDD_OPTION_BORING, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 349
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 324
+    END
+
+    IDD_OPTION_CNS, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 349
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 324
+    END
+
+    IDD_OPTION_HYUNTA, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 349
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 324
+    END
+
+    IDD_OPTION_SLAB_STANDARD_OUTPUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 349
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 324
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CHECKOFF            BITMAP                  "res\\check_off.bmp"
+IDB_CHECKON             BITMAP                  "res\\check_on.bmp"
+IDB_ITEMS               BITMAP                  "res\\node.bmp"
+IDB_RADIOOFF            BITMAP                  "res\\radio_off.bmp"
+IDB_RADIOON             BITMAP                  "res\\radio_on.bmp"
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\ARcBridgeDrawingOption.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

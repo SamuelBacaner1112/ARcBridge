@@ -1,0 +1,65 @@
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\ALDKDlg.dll ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\HgExport.dll ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\ShareBridgeInfo.dll ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\ShareWithADManager.dll ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\ShGrid.dll ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\ShControlBar.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\Domyun.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\LineApp.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\DrawManage.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\AException.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\ARoadConfig.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\XLReport.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\HGGhostConc.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\HGBaseConc.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\HGBaseDesign.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\HGBaseDraw.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\AFem.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\ALine.exe ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\ABorder.exe ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\CommonBridge.dll ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\BearingInfo.dll ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\HGDBControl.dll ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\ACommonUI.dll ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\CommonCompile\Output_v100\HgLsd.dll ..\commonCompile\Output_v100\  > ..\CommonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\Data\Dxf\HCAD_Symbol.dxf ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\Data\Dxf\내진말뚝550.dxf ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\Data\Dxf\내진말뚝700.dxf ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\Data\Dxf\내진말뚝900.dxf ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\Data\Dxf\내진말뚝1200.dxf ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\Data\Dxf\내진말뚝1450.dxf ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseEng\i18n\Language.xml ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+
+copy ..\..\..\Engine\BaseComp\CommonCompile\Output_v100\RCModule.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseComp\CommonCompile\Output_v100\HgBaseBM.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Engine\BaseComp\CommonCompile\Output_v100\MeshGen.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+
+copy ..\..\..\Engine\HgModel3D\CommonCompile\Output_v100\*.dll ..\commonCompile\Output_v100\  > ..\CommonCompile\Output_v100\out
+copy ..\..\..\Engine\HgModel3D\Data\*.shx ..\commonCompile\Output_v100\  > ..\CommonCompile\Output_v100\out
+
+copy ..\..\..\Engine\HgStm\CommonCompile\Output_v100\*.dll ..\commonCompile\Output_v100\  > ..\CommonCompile\Output_v100\out
+copy ..\..\..\Engine\HgStm\Data\STAD\pconvertLsd.exe ..\commonCompile\Output_v100\  > ..\CommonCompile\Output_v100\out
+copy ..\..\..\Engine\HgStm\Data\STAD\tconvertLsd.exe ..\commonCompile\Output_v100\  > ..\CommonCompile\Output_v100\out
+copy ..\..\..\Engine\HgStm\Data\STAD\pconvertUsd.exe ..\commonCompile\Output_v100\  > ..\CommonCompile\Output_v100\out
+copy ..\..\..\Engine\HgStm\Data\STAD\tconvertUsd.exe ..\commonCompile\Output_v100\  > ..\CommonCompile\Output_v100\out
+copy ..\..\..\Engine\HgStm\Data\STAD\truss.exe ..\commonCompile\Output_v100\  > ..\CommonCompile\Output_v100\out
+
+copy ..\..\..\Lib\XTPToolkitPro\CommonCompile\Output_v100\ToolkitPro1624vc100.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Lib\XTPToolkitPro\Source\Styles\VisualStudio2012.dll ..\commonCompile\Output_v100\  > ..\CommonCompile\Output_v100\out
+copy ..\..\..\Lib\XTPExt\CommonCompile\Output_v100\XTPExtvc100.dll ..\commonCompile\Output_v100\  > ..\CommonCompile\Output_v100\out
+copy ..\..\..\Lib\ShImageMng\CommonCompile\Output_v100\ShImageMng.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Lib\CM2\SurfRemeshQ4\*.dll ..\CommonCompile\Output_v100\*.dll  > ..\CommonCompile\Output_v100\out
+copy ..\..\..\Lib\CM2\QuadMesh\*.dll ..\CommonCompile\Output_v100\*.dll  > ..\CommonCompile\Output_v100\out
+copy ..\..\..\Lib\iconv\dll_win32\libiconv.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+
+copy ..\..\..\Dll\libiconv2.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Dll\libintl3.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Dll\sx32w.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\..\..\Tool\HGEdit\CommonCompile\Output_v100\AEdit.exe ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\Data\HgExcelBase.dll ..\commonCompile\Output_v100\  > ..\commonCompile\Output_v100\out
+copy ..\Data\Dxf\chairblock_spacer설치위치_상세.dxf ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\Data\Dxf\chairblock_전단철근_상세.dxf ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\Data\Dxf\chairblock_피복유지_상세.dxf ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\Data\Dxf\교대보호블럭(육교용).dxf ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\Data\Dxf\교대보호블럭(하천용).dxf ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out
+copy ..\Patch\Upgrade.txt ..\commonCompile\Output_v100\ > ..\commonCompile\Output_v100\out

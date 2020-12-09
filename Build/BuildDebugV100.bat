@@ -1,0 +1,9 @@
+call ../../../Build/BuildBaseV100.bat ../ARcBridge ../Src/ARcBridgeData/ARcBridgeData.vcxproj // Debug
+call ../../../Build/BuildBaseV100.bat ../ARcBridge ../Src/ARcBridgeDBDraw/ARcBridgeDBDraw.vcxproj // Debug
+call ../../../Build/BuildBaseV100.bat ../ARcBridge ../Src/ARcBridgeCalculate/ARcBridgeCalculate.vcxproj // Debug
+call ../../../Build/BuildBaseV100.bat ../ARcBridge ../Src/ARcBridgeInput/ARcBridgeInput.vcxproj // Debug
+call ../../../Build/BuildBaseV100.bat ../ARcBridge ../Src/ARcBridgeDrawingOption/ARcBridgeDrawingOption.vcxproj // Debug
+call ../../../Build/BuildBaseV100.bat ../ARcBridge ../Src/ARcBridgeDrawing/ARcBridgeDrawing.vcxproj // Debug
+call ../../../Build/BuildBaseV100.bat ../ARcBridge ../Src/ARcBridgeOutBM/ARcBridgeOutBM.vcxproj // Debug
+call ../../../Build/BuildBaseV100.bat ../ARcBridge ../Src/ARcBridgeOutDesign/ARcBridgeOutDesign.vcxproj // Debug
+call ../../../Build/BuildBaseV100.bat ../ARcBridge ARcBridge.vcxproj // Debug

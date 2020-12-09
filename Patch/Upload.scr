@@ -1,0 +1,6 @@
+open www1.aroad.co.kr
+info
+aroad0718
+cd /22-download/RealUpdate_ARcBridge
+put ../Program_Install.zip
+quit

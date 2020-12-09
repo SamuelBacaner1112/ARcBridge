@@ -1,0 +1,7 @@
+; ARcBridgeOutDesignD.def : Declares the module parameters for the DLL.
+
+LIBRARY      "ARcBridgeOutDesignD"
+;DESCRIPTION  'ARcBridgeOutDesign Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

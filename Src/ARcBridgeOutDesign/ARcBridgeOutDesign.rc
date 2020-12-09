@@ -1,0 +1,326 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ARcBridgeOutDesign.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204B0"
+        BEGIN
+            VALUE "FileDescription", "ARcBridgeOutDesign DLL"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "ARcBridgeOutDesign"
+            VALUE "LegalCopyright", "Copyright (C) 2004"
+            VALUE "OriginalFilename", "ARcBridgeOutDesign.DLL"
+            VALUE "ProductName", "ARcBridgeOutDesign 동적 연결 라이브러리"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_DESIGN_OUT DIALOGEX 0, 0, 303, 133
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "구조계산서 출력"
+FONT 9, "굴림", 0, 0, 0x0
+BEGIN
+    CONTROL         "Progress1",IDC_PROGRESS_DESIGN,"msctls_progress32",WS_BORDER,3,97,297,11
+    LTEXT           "진행상태",IDC_TEXT_PROGRESS,3,113,161,13
+    PUSHBUTTON      "삽입도면 보기",IDC_BUTTON_VIEWWMF,207,69,48,17
+    PUSHBUTTON      "옵션(&O)",IDC_BUTTON_XLOPTION,261,69,36,17
+    PUSHBUTTON      "출력(&P)",IDC_BUTTON_PRINTOUT,174,113,36,17
+    PUSHBUTTON      "출력파일 열기",IDC_BUTTON_OPEN,212,113,46,17,WS_DISABLED
+    PUSHBUTTON      "닫기(&C)",IDOK,264,113,36,17
+    CONTROL         "개별 타입 출력",IDC_RADIO_ONE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,14,31,62,10
+    CONTROL         "선택 타입 출력",IDC_RADIO_SELECT,"Button",BS_AUTORADIOBUTTON,14,48,62,10
+    CONTROL         "모든 타입 출력",IDC_RADIO_ALLTYPE,"Button",BS_AUTORADIOBUTTON,14,66,62,10
+    COMBOBOX        IDC_COMBO_ONE,84,28,205,72,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SELECT2,84,46,205,66,CBS_DROPDOWNLIST | CBS_OWNERDRAWVARIABLE | CBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Tab3",IDC_TAB_DESIGN,"SysTabControl32",0x0,3,3,297,87
+END
+
+IDD_PROPPAGE_ETC DIALOG 0, 0, 173, 265
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "기타 옵션"
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "List1",IDC_LIST_OUTLIST_ETC,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,7,159,223
+    PUSHBUTTON      "전체선택",ID_ALLCHECK,7,239,46,19
+    PUSHBUTTON      "전체해제",ID_ALLUNCHECK,56,239,46,19
+END
+
+IDD_PROPPAGE_XL DIALOG 0, 0, 173, 265
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "출력 항목"
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "List1",IDC_LIST_OUTLIST,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,7,159,221
+    PUSHBUTTON      "전체해제",ID_ALLUNCHECK,56,239,46,19
+    PUSHBUTTON      "전체선택",ID_ALLCHECK,7,239,46,19
+END
+
+IDD_PROPPAGE_EXEL DIALOG 0, 0, 173, 265
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Excel 출력환경"
+FONT 9, "굴림"
+BEGIN
+    LTEXT           "출력 글꼴",IDC_STATIC,15,10,31,8
+    COMBOBOX        IDC_COMBO_FONT,52,7,62,56,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "글자크기",IDC_STATIC,15,28,28,8
+    COMBOBOX        IDC_COMBO_FONTSIZE,52,25,48,54,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "여백 설정",IDC_STATIC,7,64,159,103
+    CONTROL         "ARcBridge 기본설정 사용",IDC_CHECK_DEFAULT_EXCEL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,174,95,10
+    LTEXT           "주) 사용자 글꼴 및 글자크기,여백을 사용한 경우",IDC_STATIC,12,192,150,8
+    LTEXT           "출력물의 페이지설정 및 출력형태가 잘못",IDC_STATIC,25,206,127,8
+    LTEXT           "될 수 있습니다.",IDC_STATIC,25,220,49,8
+    LTEXT           "주) 여백을 조정하시면 출력속도가 저하됩니다.",IDC_STATIC,12,237,146,8
+    LTEXT           "위쪽 여백",IDC_STATIC,21,86,31,8
+    LTEXT           "아래쪽 여백",IDC_STATIC,14,107,38,8
+    LTEXT           "왼쪽 여백",IDC_STATIC,21,128,31,8
+    LTEXT           "오른쪽 여백",IDC_STATIC,14,149,38,8
+    EDITTEXT        IDC_EDIT_TOP,60,83,42,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BOTTOM,60,104,42,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LEFT,60,125,42,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RIGHT,60,146,42,14,ES_AUTOHSCROLL
+    LTEXT           "페이지당 줄수",IDC_STATIC,15,46,44,8
+    EDITTEXT        IDC_EDIT_PAGEROW,64,44,38,14,ES_AUTOHSCROLL
+END
+
+IDD_PROPPAGE_STM DIALOGEX 0, 0, 173, 265
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "STM출력옵션"
+FONT 9, "굴림", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "전체해제",ID_ALLUNCHECK,56,239,46,19
+    DEFPUSHBUTTON   "전체선택",ID_ALLCHECK,7,239,46,19
+    CONTROL         "Custom1",IDC_GRID_SEL_OUTDESIGN,"MFCGridCtrl",WS_BORDER,7,7,159,222
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_DESIGN_OUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 300
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_PROPPAGE_ETC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 166
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 258
+    END
+
+    IDD_PROPPAGE_XL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 166
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 258
+    END
+
+    IDD_PROPPAGE_EXEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 166
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 258
+    END
+
+    IDD_PROPPAGE_STM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 166
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 258
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PROPPAGE_EXEL DLGINIT
+BEGIN
+    IDC_COMBO_FONT, 0x403, 5, 0
+0xbcb1, 0xb2b8, "\000" 
+    IDC_COMBO_FONT, 0x403, 7, 0
+0xbcb1, 0xb2b8, 0xbcc3, "\000" 
+    IDC_COMBO_FONT, 0x403, 5, 0
+0xc3b1, 0xadbc, "\000" 
+    IDC_COMBO_FONT, 0x403, 7, 0
+0xc3b1, 0xadbc, 0xbcc3, "\000" 
+    IDC_COMBO_FONT, 0x403, 5, 0
+0xb8b5, 0xf2bf, "\000" 
+    IDC_COMBO_FONT, 0x403, 7, 0
+0xb8b5, 0xf2bf, 0xbcc3, "\000" 
+    IDC_COMBO_FONT, 0x403, 5, 0
+0xd9b9, 0xc1c5, "\000" 
+    IDC_COMBO_FONT, 0x403, 7, 0
+0xd9b9, 0xc1c5, 0xbcc3, "\000" 
+    IDC_COMBO_FONTSIZE, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_FONTSIZE, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_FONTSIZE, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO_FONTSIZE, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO_FONTSIZE, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO_FONTSIZE, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO_FONTSIZE, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO_FONTSIZE, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO_FONTSIZE, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO_FONTSIZE, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO_FONTSIZE, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO_FONTSIZE, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_COMBO_FONTSIZE, 0x403, 3, 0
+0x3231, "\000" 
+    IDC_COMBO_FONTSIZE, 0x403, 3, 0
+0x3331, "\000" 
+    IDC_COMBO_FONTSIZE, 0x403, 3, 0
+0x3431, "\000" 
+    IDC_COMBO_FONTSIZE, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_COMBO_FONTSIZE, 0x403, 3, 0
+0x3631, "\000" 
+    IDC_COMBO_FONTSIZE, 0x403, 3, 0
+0x3731, "\000" 
+    IDC_COMBO_FONTSIZE, 0x403, 3, 0
+0x3831, "\000" 
+    IDC_COMBO_FONTSIZE, 0x403, 3, 0
+0x3931, "\000" 
+    IDC_COMBO_FONTSIZE, 0x403, 3, 0
+0x3032, "\000" 
+    0
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\ARcBridgeOutDesign.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

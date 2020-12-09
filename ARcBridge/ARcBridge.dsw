@@ -1,0 +1,200 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "ACommon"=..\..\..\Engine\BaseEng\Src\ACommon\ACommon.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ALine"=..\..\..\Engine\BaseEng\Src\ALine\ALine.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ARcBridge"=.\ARcBridge.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ARcBridgeOutDesign
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ARcBridgeInput
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ARcBridgeCalculate"=..\Src\ARcBridgeCalculate\ARcBridgeCalculate.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ARcBridgeDBDraw
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ARcBridgeDBDraw"=..\Src\ARcBridgeDBDraw\ARcBridgeDBDraw.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ARcBridgeData
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ARcBridgeData"=..\Src\ARcBridgeData\ARcBridgeData.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ARcBridgeDrawing"=..\Src\ARcBridgeDrawing\ARcBridgeDrawing.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ARcBridgeDrawingOption
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ARcBridgeDrawingOption"=..\Src\ARcBridgeDrawingOption\ARcBridgeDrawingOption.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ARcBridgeInput
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ARcBridgeInput"=..\Src\ARcBridgeInput\ARcBridgeInput.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ARcBridgeCalculate
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ARcBridgeOutBM"=..\Src\ARcBridgeOutBM\ARcBridgeOutBM.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ARcBridgeDrawing
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ARcBridgeOutDesign"=..\Src\ARcBridgeOutDesign\ARcBridgeOutDesign.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ARcBridgeOutBM
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "HgBaseConc"=..\..\..\Engine\BaseEng\Src\HgBaseConc\HgBaseConc.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "RCModule"=..\..\..\Engine\BaseComp\Src\RCModule\RCModule.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

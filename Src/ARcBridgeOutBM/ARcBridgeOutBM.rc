@@ -1,0 +1,324 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ARcBridgeOutBM.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "FileDescription", "ARcBridgeOutBM DLL"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "ARcBridgeOutBM"
+            VALUE "LegalCopyright", "Copyright (C) 2004"
+            VALUE "OriginalFilename", "ARcBridgeOutBM.DLL"
+            VALUE "ProductName", "ARcBridgeOutBM 동적 연결 라이브러리"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_OUTBM DLGINIT
+BEGIN
+    IDC_COMBO_PREVIEW, 0x403, 4, 0
+0xb031, 0x00b3, 
+    IDC_COMBO_PREVIEW, 0x403, 4, 0
+0xb032, 0x00b3, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_PROPPAGE_SELECT_BM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 294
+    END
+
+    IDD_PROPPAGE_VIEW_BM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 294
+    END
+
+    IDD_DIALOG_OUTBM, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 474
+        VERTGUIDE, 282
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 285
+    END
+
+    IDD_DIALOG_BM_OUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 586
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 396
+    END
+
+    IDD_PROPPAGE_OPTION_BM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 294
+    END
+
+    IDD_DIALOG_BM_SELECTKIND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 293
+    END
+
+    IDD_DIALOG_BM_OPTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 538
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 348
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROPPAGE_SELECT_BM DIALOG 0, 0, 201, 301
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "수량산출서 생성"
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "List1",IDC_LIST_NORMAL_BM,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,7,187,263
+    DEFPUSHBUTTON   "전체선택",ID_ALLSELECT,7,278,41,16
+    PUSHBUTTON      "전체해제",ID_ALLNOSELECT,51,278,41,16
+END
+
+IDD_PROPPAGE_VIEW_BM DIALOG 0, 0, 201, 301
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "공종별 출력"
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "List1",IDC_LIST_VIEW,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,49,187,224
+    DEFPUSHBUTTON   "전체선택",ID_ALLSELECT,7,278,41,16
+    PUSHBUTTON      "전체해제",ID_ALLNOSELECT,51,278,41,16
+    CONTROL         "일반수량",IDC_CHECK_NORMAL_BM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,21,43,10
+    GROUPBOX        "수량산출서 생성",IDC_STATIC,7,7,187,34
+    CONTROL         "철근집계",IDC_CHECK_REBAR_BM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,83,22,43,10
+END
+
+IDD_DIALOG_OUTBM DIALOGEX 0, 0, 477, 288
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "굴림", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "",IDC_STATIC_OUTBM_VIEW_BOTTOM1,3,222,471,63
+    PUSHBUTTON      "사용자 수량 입력",IDC_BUTTON_USER_BM,205,235,67,20
+    GROUPBOX        "",IDC_STATIC_OUTBM_VIEW_BOTTOM2,129,222,148,63
+    LTEXT           "미리보기 화면 개수 :",IDC_STATIC_PREVIEW_SU,11,241,65,8
+    COMBOBOX        IDC_COMBO_PREVIEW,82,239,39,71,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "화면정렬 : ",IDC_STATIC_VIEW_ALI,11,263,35,8
+    CONTROL         "수직",IDC_RADIO_VIEW_VERT,"Button",BS_AUTORADIOBUTTON | WS_GROUP,50,262,30,10
+    CONTROL         "수평",IDC_RADIO_VIEW_HOR,"Button",BS_AUTORADIOBUTTON,83,262,30,10
+    PUSHBUTTON      "수량산출 옵션 선택",IDC_BUTTON_OPTION_BM,136,257,67,20
+    PUSHBUTTON      "출력된 삽도 보기",IDC_BUTTON_WMF_R,342,228,60,20
+    CONTROL         "Progress1",IDC_PROGRESS_PRINT_BM,"msctls_progress32",PBS_SMOOTH | WS_BORDER,282,266,188,15
+    LTEXT           "수량산출서 출력 대기......",IDC_STATIC_PRINT_BM,282,254,188,8
+    PUSHBUTTON      "출력취소",IDC_BUTTON_PRINT_CANCEL,421,228,49,20
+    CONTROL         "Custom1",IDC_GRID_ORG,"MFCGridCtrl",WS_BORDER,3,3,221,216
+    CONTROL         "Custom1",IDC_GRID_OTHER,"MFCGridCtrl",WS_BORDER,253,3,221,216
+    PUSHBUTTON      "사용자 수량 적용",IDC_BUTTON_USER_BM2,205,257,67,20
+    PUSHBUTTON      "수량산출서 출력",IDC_BUTTON_PRINT_SELECT,281,228,60,20
+    PUSHBUTTON      "수량산출 공종 선택",IDC_BUTTON_KIND_SELECT,136,235,67,20
+END
+
+IDD_DIALOG_BM_OUT DIALOGEX 0, 0, 593, 403
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "수량산출서 출력"
+FONT 9, "굴림", 0, 0, 0x1
+BEGIN
+    CONTROL         "Custom1",IDC_BM_GRID,"MFCGridCtrl",WS_BORDER,9,60,454,300
+    CONTROL         "Tab1",IDC_BM_TAB,"SysTabControl32",TCS_MULTISELECT,7,42,459,321,WS_EX_STATICEDGE
+    PUSHBUTTON      "사용자수량(&U)",IDC_BUTTON_BM_USER,195,381,52,15,NOT WS_VISIBLE
+    PUSHBUTTON      "옵션(&I)",IDC_BUTTON_BM_OPTION,297,381,36,15
+    PUSHBUTTON      "출력(&P)",IDC_BUTTON_BM_OUT,334,381,36,15
+    PUSHBUTTON      "출력파일열기(&O)",IDC_BUTTON_BM_OPEN,371,381,62,15
+    PUSHBUTTON      "닫기(&C)",IDCANCEL,434,381,36,15
+    CONTROL         "Progress1",IDC_PROGRESS_BM,"msctls_progress32",PBS_SMOOTH | WS_TABSTOP,10,367,285,11,WS_EX_STATICEDGE
+    LTEXT           "수량산출서 출력 대기....",IDC_STATIC_BM_MESSAGE,303,369,165,8
+    COMBOBOX        IDC_COMBO_BRIDGE,7,7,133,136,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Custom1",IDC_BM_GRID_SELECT,"MFCGridCtrl",WS_BORDER,469,60,117,300
+    PUSHBUTTON      "전체선택",IDC_BUTTON_ALLSELECT,470,42,36,14
+    PUSHBUTTON      "전체선택 해제",IDC_BUTTON_NONSELECT,506,42,50,14
+    PUSHBUTTON      "반전",IDC_BUTTON_REVERSE,557,42,29,14
+    LTEXT           "라멘본체",IDC_STATIC_MAIN,162,13,302,8
+    LTEXT           "날개벽",IDC_STATIC_WING,162,27,302,8
+    PUSHBUTTON      "삽도보기",IDC_BUTTON_WMF,257,381,39,15
+END
+
+IDD_PROPPAGE_OPTION_BM DIALOG 0, 0, 201, 301
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "수량산출 옵션"
+FONT 9, "굴림"
+BEGIN
+    GROUPBOX        "수량 산출서 출력 옵션",IDC_STATIC,7,90,187,78
+    CONTROL         "삽도에 원지반 선 표현",IDC_CHECK_DRAW_ELEARTH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,106,85,10
+    CONTROL         "엑셀 출력시 산출근거 수식변환",IDC_CHECK_CONVERT_FORM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,121,112,10
+    CONTROL         "산출근거 데이타 셀참조 형태로 표현",IDC_CHECK_CONVERT_REF,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,7,276,128,10
+    CONTROL         "집계표간 셀 참조",IDC_CHECK_REFCELL_SUMCELL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,136,69,10
+    CONTROL         "본체와 교명주 철근수량 분리집계",IDC_CHECK_SEP_REBAR_MONUMENT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,64,166,10
+    CONTROL         "산출시 기초를 바닥 및 보와 분리",IDC_CHECK_SEP_FOOTING,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,151,117,10
+END
+
+IDD_DIALOG_BM_SELECTKIND DIALOGEX 0, 0, 181, 300
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "수량산출 공종 선택"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "확인",IDOK,55,280,59,13
+    PUSHBUTTON      "취소",IDCANCEL,115,280,59,13
+    CONTROL         "",IDC_LIST_VIEW,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,8,7,165,247
+    PUSHBUTTON      "전체선택",IDC_BUTTON_ALL_SELECT,8,262,50,13
+    PUSHBUTTON      "전체해제",IDC_BUTTON_NON_SELECT,59,262,50,13
+    PUSHBUTTON      "반전선택",IDC_BUTTON_REV_SELECT,111,262,50,13
+END
+
+IDD_DIALOG_BM_OPTION DIALOGEX 0, 0, 545, 355
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "수량산출 옵션"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "확인",IDOK,479,335,59,13
+    PUSHBUTTON      "취소",IDCANCEL,234,335,59,13,NOT WS_VISIBLE
+    CONTROL         "Custom1",IDC_GRID_ORG_OUTBM,"MFCGridCtrl",WS_BORDER | WS_TABSTOP,22,57,507,265
+    CONTROL         "",IDC_TAB_OPT_OUTBM,"SysTabControl32",0x0,17,38,511,288,WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO,17,15,137,81,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "권고안",IDC_BUTTON_BM_RECOMMAND,17,335,59,13
+    PUSHBUTTON      "모든 교대 동일적용",IDC_BUTTON_BM_SAME,78,335,93,13
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\ARcBridgeOutBM.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
